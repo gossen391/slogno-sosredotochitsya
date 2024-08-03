@@ -2,14 +2,13 @@
 
 .page {
   width:1024px ;
-  border: 1px solid red;
   margin: auto;
   font-family: 'IBM Plex mono';
   background:var(--background-site) ;
 
 }
 .header{
-  border: 1px solid lime;
+  border: 1px solid var(--background-site);
   width:1024px ;
   height:768px ;
   background:var(--background-image);
