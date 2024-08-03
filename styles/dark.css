@@ -1,0 +1,18 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_dark {
+ --header-title:#DB00FF;
+--background-site: #000028;
+--background-image: url(../images/cover-image-dark.png); 
+--background-article:#FF0070 ;
+--section-title:#FF0070;
+--article__title:#000028;
+--article__text:#F1B2CE;
+}
+.footer.theme_dark {
+--header-title:#DB00FF;
+}

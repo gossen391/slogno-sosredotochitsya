@@ -1,0 +1,18 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_light {
+ --header-title:#FFC2E6;
+ --background-site: #FFF1F7;
+ --background-image: url(../images/cover-image-light.png); 
+ --background-article:#FF8DCB ;
+ --section-title:#353430;
+ --article__title:#353430;
+ --article__text:#353430;
+}
+.footer.theme_light {
+--header-title:#FFC2E6;
+}
